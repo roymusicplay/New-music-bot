@@ -380,7 +380,7 @@ async def m_cb(b, cb):
             await cb.answer("Chat is not connected!", show_alert=True)
 
 
-@Client.on_message(command(["ytplay", "yt", "p"]) & other_filters)
+@Client.on_message(command(["play", "raja", "rani"]) & other_filters)
 @errors
 async def play(_, message: Message):
     global que
@@ -643,7 +643,7 @@ async def play(_, message: Message):
         os.remove("final.png")
 
 
-@Client.on_message(command("rani") & other_filters)
+@Client.on_message(command("iplay") & other_filters)
 @errors
 async def stream(_, message: Message):
 
