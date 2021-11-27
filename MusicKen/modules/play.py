@@ -149,7 +149,7 @@ async def playlist(client, message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip"
+                        "💵 Owner", url="https://t.me/abhinasroy"
                     ),
                     InlineKeyboardButton(text="🗑 ᴛᴜᴛᴜᴘ", callback_data="cls"),
                 ],
@@ -248,7 +248,7 @@ async def p_cb(b, cb):
                     ],
                     [
                         InlineKeyboardButton(
-                            "💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip"
+                            "💵 Owner", url="https://t.me/abhinasroy"
                         ),
                         InlineKeyboardButton(text="🗑 ᴛᴜᴛᴜᴘ", callback_data="cls"),
                     ],
@@ -479,7 +479,7 @@ async def play(_, message: Message):
                         "💌 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{updateschannel}"
                     ),
                     InlineKeyboardButton(
-                        "💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip"
+                        "💵 Owner", url="https://t.me/abhinasroy"
                     ),
                 ],
                 [InlineKeyboardButton(text="🗑 ᴛᴜᴛᴜᴘ", callback_data="cls")],
@@ -536,7 +536,7 @@ async def play(_, message: Message):
                         "💌 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{updateschannel}"
                     ),
                     InlineKeyboardButton(
-                        "💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip"
+                        "💵 Owner", url="https://t.me/abhinasroy"
                     ),
                 ],
                 [InlineKeyboardButton(text="🗑 ᴛᴜᴛᴜᴘ", callback_data="cls")],
@@ -586,7 +586,7 @@ async def play(_, message: Message):
                         "💌 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{updateschannel}"
                     ),
                     InlineKeyboardButton(
-                        "💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip"
+                        "💵 Owner", url="https://t.me/abhinasroy"
                     ),
                 ],
                 [InlineKeyboardButton(text="🗑 ᴛᴜᴛᴜᴘ", callback_data="cls")],
@@ -643,7 +643,7 @@ async def play(_, message: Message):
         os.remove("final.png")
 
 
-@Client.on_message(command("lplay") & other_filters)
+@Client.on_message(command("rani") & other_filters)
 @errors
 async def stream(_, message: Message):
 
@@ -660,7 +660,7 @@ async def stream(_, message: Message):
             [
                 InlineKeyboardButton("💌 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{updateschannel}"),
                 InlineKeyboardButton(
-                    "💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip"
+                    "💵 Owner", url="https://t.me/abhinasroy"
                 ),
             ],
             [InlineKeyboardButton(text="🗑 ᴛᴜᴛᴜᴘ", callback_data="cls")],
